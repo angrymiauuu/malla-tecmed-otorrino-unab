@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Interactiva – Tecnología Médica OTO – UNAB</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+  <h1>Tecnología Médica – OTO – UNAB</h1>
+
+  <div class="malla-grid">
+
+    <!-- 1° SEMESTRE -->
+    <div class="semestre">
+      <h2>1° Semestre</h2>
+      <div class="ramo" id="lab_biocel">Laboratorio de Biología Celular</div>
+      <div class="ramo" id="biocel">Biología Celular</div>
+      <div class="ramo" id="algebra">Álgebra y Cálculo</div>
+      <div class="ramo" id="anatomia">Anatomía Humana</div>
+      <div class="ramo" id="quimica_general">Química General</div>
+      <div class="ramo" id="intro_tm">Introducción a Tecnología Médica</div>
+    </div>
+
+    <!-- 2° SEMESTRE -->
+    <div class="semestre">
+      <h2>2° Semestre</h2>
+      <div class="ramo bloqueado" id="habilidades">Habilidades Comunicativas</div>
+      <div class="ramo bloqueado" id="fisica">Física General</div>
+      <div class="ramo bloqueado" id="ingles1">Inglés I</div>
+      <div class="ramo bloqueado" id="histoembriologia">Histoembriología</div>
+      <div class="ramo bloqueado" id="quimica_organica">Química Orgánica</div>
+    </div>
+
+    <!-- 3° SEMESTRE -->
+    <div class="semestre">
+      <h2>3° Semestre</h2>
+      <div class="ramo bloqueado" id="bioquimica">Bioquímica</div>
+      <div class="ramo bloqueado" id="fisiologia">Fisiología Humana</div>
+      <div class="ramo bloqueado" id="tic">Razonamiento Científico y TICS</div>
+      <div class="ramo bloqueado" id="ingles2">Inglés II</div>
+      <div class="ramo bloqueado" id="bioetica">Bioética</div>
+      <div class="ramo bloqueado" id="infectologia">Infectología</div>
+    </div>
+
+    <!-- 4° SEMESTRE -->
+    <div class="semestre">
+      <h2>4° Semestre</h2>
+      <div class="ramo bloqueado" id="farmaco">Farmacología General</div>
+      <div class="ramo bloqueado" id="ingles3">Inglés III</div>
+      <div class="ramo bloqueado" id="fisiopato">Fisiopatología</div>
+      <div class="ramo bloqueado" id="psicoacustica">Psicoacústica y Fonología</div>
+      <div class="ramo bloqueado" id="neuroanatomia_orl">Neuroanatomía Otorrinolaringológica</div>
+      <div class="ramo bloqueado" id="lengua_senas">Lengua de Señas</div>
+    </div>
+
+    <!-- 5° SEMESTRE -->
+    <div class="semestre">
+      <h2>5° Semestre</h2>
+      <div class="ramo bloqueado" id="ingles4">Inglés IV</div>
+      <div class="ramo bloqueado" id="salud_pub1">Salud Pública I</div>
+      <div class="ramo bloqueado" id="procedimientos">Procedimientos de TM y Bioseguridad</div>
+      <div class="ramo bloqueado" id="morfofisio_orl">Morfofisiopatología ORL</div>
+      <div class="ramo bloqueado" id="funcion_nasal">Función Nasal</div>
+      <div class="ramo bloqueado" id="neurofisiologia_orl">Neurofisiología Aplicada ORL</div>
+    </div>
+
+    <!-- 6° SEMESTRE -->
+    <div class="semestre">
+      <h2>6° Semestre</h2>
+      <div class="ramo bloqueado" id="pensamiento">Pensamiento Crítico</div>
+      <div class="ramo bloqueado" id="salud_pub2">Salud Pública II</div>
+      <div class="ramo bloqueado" id="audiologia_basica">Audiología Básica</div>
+      <div class="ramo bloqueado" id="otoneuro">Otoneurología</div>
+    </div>
+
+    <!-- 7° SEMESTRE -->
+    <div class="semestre">
+      <h2>7° Semestre</h2>
+      <div class="ramo bloqueado" id="gestion_salud">Administración y Gestión en Salud</div>
+      <div class="ramo bloqueado" id="educacion_salud">Educación en Salud</div>
+      <div class="ramo bloqueado" id="audiologia_avanzada">Audiología Avanzada y Electrofisiología</div>
+      <div class="ramo bloqueado" id="otoneuro2">Otoneurología II</div>
+      <div class="ramo bloqueado" id="integrador1">Integrador I: Caso Clínico OTO</div>
+    </div>
+
+    <!-- 8° SEMESTRE -->
+    <div class="semestre">
+      <h2>8° Semestre</h2>
+      <div class="ramo bloqueado" id="aseguramiento">Gestión y Aseguramiento de la Calidad</div>
+      <div class="ramo bloqueado" id="investigacion">Metodología de la Investigación</div>
+      <div class="ramo bloqueado" id="salud_ocupacional">Salud Ocupacional</div>
+      <div class="ramo bloqueado" id="protesis">Prótesis y Órtesis Auditivas</div>
+      <div class="ramo bloqueado" id="rehab_vestibular">Rehabilitación Vestibular Auditiva</div>
+    </div>
+
+    <!-- 9° SEMESTRE -->
+    <div class="semestre">
+      <h2>9° Semestre</h2>
+      <div class="ramo bloqueado" id="responsabilidad">Responsabilidad Social</div>
+      <div class="ramo bloqueado" id="seminario">Seminario de Investigación OTO</div>
+    </div>
+
+    <!-- 10° SEMESTRE -->
+    <div class="semestre">
+      <h2>10° Semestre</h2>
+      <div class="ramo bloqueado" id="integrador2">Integrador II: Internado Clínico OTO</div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
