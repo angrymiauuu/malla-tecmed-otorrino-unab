@@ -1,0 +1,63 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff4e6;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #4b3832;
+  margin-bottom: 30px;
+}
+
+.malla-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+.semestre {
+  min-width: 220px;
+  background: #be9b7b;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(60, 47, 47, 0.3);
+}
+
+.semestre h2 {
+  text-align: center;
+  color: #3c2f2f;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #3c2f2f;
+  padding-bottom: 5px;
+}
+
+.ramo {
+  background: #854442;
+  color: #fff4e6;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.ramo:hover {
+  background: #4b3832;
+}
+
+.ramo.bloqueado {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.ramo.aprobado {
+  background: #3c2f2f !important;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
