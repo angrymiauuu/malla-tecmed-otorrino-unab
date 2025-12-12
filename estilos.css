@@ -4,6 +4,15 @@ body {
   margin: 0;
   padding: 20px;
 }
+.kitty {
+  position: fixed;     
+  bottom: 20px;        
+  right: 20px;        
+  width: 120px;        
+  opacity: 0.85;       
+  z-index: -1;        
+  pointer-events: none; 
+}
 
 h1 {
   text-align: center;
