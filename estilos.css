@@ -1,13 +1,13 @@
 body {
   font-family: 'Baloo 2', cursive;
-  background: #fff4e6;
+  background: #fce4ec;
   margin: 0;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  color: #4b3832;
+  color: #ad1457;
   margin-bottom: 30px;
 }
 
@@ -20,7 +20,7 @@ h1 {
 
 .semestre {
   min-width: 220px;
-  background: #be9b7b;
+  background: #f48fb1;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 2px 5px rgba(60, 47, 47, 0.3);
@@ -28,15 +28,15 @@ h1 {
 
 .semestre h2 {
   text-align: center;
-  color: #3c2f2f;
+  color: #880e4f;
   margin-bottom: 15px;
   border-bottom: 2px solid #3c2f2f;
   padding-bottom: 5px;
 }
 
 .ramo {
-  background: #854442;
-  color: #fff4e6;
+  background: #fce4ec;
+  color: #c2185b;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 8px;
@@ -47,17 +47,17 @@ h1 {
 }
 
 .ramo:hover {
-  background: #4b3832;
+  background: #ec407a;
 }
 
 .ramo.bloqueado {
-  background: #ccc;
-  color: #666;
+  background: #ad1457;
+  color: #f48fb1;
   cursor: not-allowed;
 }
 
 .ramo.aprobado {
-  background: #3c2f2f !important;
+  background: #d81b60 !important;
   text-decoration: line-through;
   opacity: 0.8;
 }
