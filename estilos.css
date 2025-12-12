@@ -5,12 +5,12 @@ body {
   padding: 20px;
 }
 .kitty {
-  position: fixed;     
-  bottom: 20px;        
-  right: 20px;        
-  width: 120px;        
-  opacity: 0.85;       
-  z-index: -1;        
+  position: absolute;
+  top: 35px;       
+  left: calc(50% - 420px);  
+  width: 120px;   
+  opacity: 0.9;
+  z-index: 1;     
   pointer-events: none; 
 }
 
